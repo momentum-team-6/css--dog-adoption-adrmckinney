@@ -1,0 +1,16 @@
+.header { 
+    background-color: #004175;
+    border-color: #89DEEF;
+    color: #ffffff;
+    margin: -8px;
+    padding: 3px;
+    border-width: 20px;
+}
+
+.dog-images {
+    width: 25%;
+}
+
+li {
+    list-style-type: none;
+}
