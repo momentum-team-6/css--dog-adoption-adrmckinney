@@ -1,10 +1,10 @@
 .header { 
     background-color: #004175;
-    border-color: #89DEEF;
     color: #ffffff;
     margin: -8px;
-    padding: 3px;
+    padding: 20px;
     border-width: 20px;
+    border-bottom: 3px solid #89DEEF;
 }
 
 .dog-images {
@@ -13,4 +13,12 @@
 
 li {
     list-style-type: none;
+}
+
+.traits {
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
 }
