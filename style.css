@@ -35,7 +35,6 @@
 .dog-card {
     margin: 20px;
     width: min-content;
-    border: 5px solid orange;
 }
 
 .dog-images {
@@ -72,5 +71,46 @@
 }
 
 .footer {
-    padding: 20px;
+}
+
+.footer-cards {
+    flex: 1 1 auto;
+}
+
+.footer-images {
+    width: 200px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 6.5;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.donate-box {
+    background: linear-gradient(
+            rgba(166,169,240,.45),
+            rgba(166,169,240,.45)
+        ), url(starter_files/images/donate.jpg) top center / 200px 200px no-repeat;
+}
+
+.volunteer-box {
+    background:  linear-gradient(
+        rgba(166,169,240,.45),
+        rgba(166,169,240,.45)
+    ), url(starter_files/images/volunteer.jpg) top center / 200px 200px no-repeat;
+}
+
+.location-box {
+    background:  linear-gradient(
+        rgba(166,169,240,.45),
+        rgba(166,169,240,.45)
+    ), url(starter_files/images/location.png) top center / 200px 200px no-repeat;
+}
+
+.container-footer {
+    display: flex;
 }
