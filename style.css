@@ -8,15 +8,25 @@
 }
 
 .header { 
-    background-color: #004175;
+    display: flex;
     color: #ffffff;
     margin: 0px;
     padding: 3px;
-    border-bottom: 3px solid #89DEEF;
+    border-bottom: 3px solid #b979e4;
+    background: linear-gradient(
+        rgba(136, 66, 115, 0.6),
+        rgba(143, 155, 206, 0.6)
+        ), url(starter_files/images/golden-lab.jpg) top left / 25% no-repeat,
+        url(starter_files/images/boxer.jpg) top right / 25% no-repeat;
 }
 
 .header-text {
-    margin: 20px;
+    margin: 27px auto;
+    font-size: 150%;
+}
+
+.header-background {
+    
 }
 
 .main-style {
@@ -39,6 +49,7 @@
 
 .dog-images {
     width: 200px;
+    border-radius: 100%;
 }
 
 .dog-name {
